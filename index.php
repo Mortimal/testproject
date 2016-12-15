@@ -33,8 +33,8 @@ if ($_POST["submit"]){
 if ($logindata==""){
     if (empty($_GET["page"])){
         require_once 'classes/main.php';
-    }elseif ($_GET["page"] == "kontakty"){
-        
+    }elseif ($_GET["page"] == "news"){
+        require_once 'classes/news.php';
     }
     
     $data = new data();

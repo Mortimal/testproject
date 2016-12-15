@@ -11,7 +11,7 @@
             , $template);
     $template = str_replace("<!--%mainmenu%-->",
 '               <ul>
-                  <li><a href="index.php">Домашня</a></li>
+                  <li><a href="index.php?page=news&id=1">Домашня</a></li>
    	 	</ul>'
             ,$template);
 ?>
